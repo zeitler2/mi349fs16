@@ -1,0 +1,65 @@
+html {
+	background-color: black;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 12%;
+	margin-right: 12%;
+	padding: 3%;
+	background-color: #00000f;
+	color: white;
+}
+
+p {
+	padding-left: 5%;
+	padding-right: 15%;
+}
+
+h1 {
+	font-size: 3em;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+embed {
+	padding: 0.75em;
+}
+
+img {
+}
+
+.sec {
+	background-color: #00001f;
+	padding: 2%;
+	border-top: 2em solid black;
+}
+
+.subsec {
+	background-color: #00002f;
+	padding: 1em;
+	border-top: 1.2em solid #00000f;
+}
+
+.lfloat {
+	float: left;
+}
+
+.rfloat {
+	float: right;
+}
+
+#firstsec {
+	border: 0em none black;
+}
+
+#firstsubsec {
+	border: 0em none black;
+}
