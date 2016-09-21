@@ -1,0 +1,57 @@
+html {
+	background-image: url("../images/stars.png");
+	background-position: top left;
+	background-color: black;
+	background-attachment: fixed;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 850px;
+	margin: auto;
+	background-color: #00000f;
+	color: white;
+}
+
+div {
+	padding: 10px 40px 20px 40px;
+	margin: 0px;
+}
+
+p {
+	padding: 0px 30px 0px 30px;
+}
+
+.persona {
+	margin: 10px 50px 10px 50px;
+	padding: 0px;
+	padding-right: 20px;
+	border: 4px solid #00002f;
+	background-color: #00001f;
+}
+
+.comp {
+	margin: 0px 200px 10px 200px;
+	padding: 8px;
+	text-align: center;
+	background-color: #1f001f;
+}
+
+.maroon {
+	border-top: 10px solid #1f001f;
+	border-bottom: 10px solid #1f001f;
+	background-color: #0f000f;
+}
+
+.leftPic {
+	width: 150px;
+	height: 140px;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 20px;
+	float: left;
+}
+
+#longPitch {
+	padding: 10px 20px 10px 20px
+}
