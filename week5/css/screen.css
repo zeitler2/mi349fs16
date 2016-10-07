@@ -1,0 +1,26 @@
+body {
+  background: #230;
+  color: #ffa;
+}
+
+nav {
+	text-align: center;
+}
+
+a {
+	color: #ffd;
+}
+
+.big-page {
+	width: 600px;
+	margin: auto;
+	padding: 50px;
+	background: #110;
+}
+
+#home-link {
+	width: 300px;
+	margin: auto;
+	padding: 10px;
+	background: #320;
+}
