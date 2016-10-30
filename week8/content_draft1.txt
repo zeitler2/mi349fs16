@@ -1,0 +1,68 @@
+::About the Site::
+
+"Get Outta my Zoner!"
+
+Outzoner is a one-stop slop for crap connoisseurs worldwide who wish to celebrate their appreciation for audio and visual works whose artistic value is typically only recognized ironically (if at all). The topics encompassed include:
+-"fringe" artists who express their talents in unconventional or shocking ways
+-untalented or untrained artists with low self-awareness
+-intentionally poor-quality or unpalatable productions
+-unintentionally comedic "so-bad-it's-good" productions
+
+This virtual funhouse focuses primarily on music, movies, and web videos. Here's a couple of exploration option's we've got to get your eyeballs wet
+-check into the Browser Zone to discover new slop for your popper
+-ball over the featured posts on the home page to get down with the scoops
+-peep the forums for people parties and precious piddlings
+-sign up to put your mouth where your nose is with your fingers (or your toeses)
+
+"Zoner Out, Brah."
+
+::Site Glossary::
+
+It's ok to get confused. Words can be a bless or a mess.
+
+:Content Tags:
+
+There are several kinds of posts out there in those Zones. These types of posts are identified by the following fixed tags and their possible values:
+
+Poster:		Author 		- An Outzoner author created this post
+			User 		- A user created this post
+			
+Type:		Review 		- A movie, music, or web video review (Authors only)
+			Feature 	- An article, guide, or announcement (Authors only)
+			List 		- A list of movies, songs, albums, or artists
+			Share 		- A link and comment regarding a movie, video, song, etc.
+			Creation	- Music, video, or article created by an Outzoner (Users only)
+			
+Subject:	Movies		- Subject is a movie, or movies
+			Music		- Subject is a song, album, and/or music artist
+			Webs		- Subject is a web video or external web content
+			General		- Covers multiple subjects or is unrelated to those above
+			
+Besides the above required tags, a post can include any number of additional descriptive tags. These can include genres, specific artists/works, ratings, site jargons, or other (concise) terms that can help identify the subject and purpose of the post. Here are some of the core tags used in the Outzoner:
+
+Genres:
+Ratings:
+
+:Site Jargon:
+We say what we mean here, but what we mean's not always as it seems.
+
+crunge:			inept and blissfully unaware
+fringe:			unconventional, shocking, mystifyingly peculiar
+good:			terrible
+hore:			horror
+gorrible:		gratuitously gory
+perchy:			heavy-handed, overly focused on a "moral" or "message"
+poopout:		created/performed with minimal effort and personal investment
+sars:			overly serious, lacking in humor and/or personality
+slop:			media content that one is so very hungry for to consume
+smetta:			references self, genre/medium conventions, and/or breaks fourth wall
+snootbait:		pretentious, self-indulgent, arsty-fartsy
+sploition:		intended to shock, offend, and/or arouse
+
+
+::Review Ratings System::
+
+
+
+::Artist/Review Request::
+What do you want to see from we? What slop are you hurting to slurp?
