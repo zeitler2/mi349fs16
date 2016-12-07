@@ -14,4 +14,8 @@
 $(document).ready( function() {
 	filter_articles($('#oz-featured-reviews'), '.tag-review');
 	filter_articles($('#oz-featured-shares'), '.tag-share');
+	$('.hidden').closest('article').on('click', function() {
+		$(this).find('.hidden').slideToggle();
+		$(this).closest('article').parent('div').toggleClass('row-container');
+	});
 });
