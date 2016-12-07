@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/12fc160800285847a53d4592b2357737?family=UniDreamLED);
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 /* Add your CSS below */
 
@@ -12,13 +12,12 @@ body {
   padding: 5px;
 }
 
-h1,h2,section,div,ul,a {
+h1,h2,section,div,ul {
 	padding: 0;
 	margin: 0;
 }
 
 a {
-	color: rgb(40,200,150);
     text-decoration: none;
 }
 
@@ -26,6 +25,7 @@ header {
 	background: linear-gradient( to bottom, rgb(0, 40, 40), rgb(25, 0, 25));
 	border-radius: 40px 40px 0px 0px;
 	display: flex;
+	min-height: 250px;
 }
 #oz-logo {
 	width: 150px;
@@ -44,7 +44,7 @@ header {
 }
 #oz-title h2 {
 	color: rgb(255,0,255);
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
 	font-size: 30px;
 	font-weight: 500;
 	text-align: center;
@@ -53,14 +53,15 @@ header {
 }
 blockquote {
 	color: rgb(40,200,150);
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
 	font-size: 28px;
 	padding: 10px;
 	flex: 2 2 0;
 }
 blockquote cite {
+	display: inline-block;
 	color: rgb(255,0,255);
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
 	font-style: normal;
 	font-size: 20px;
 }
@@ -92,10 +93,10 @@ blockquote cite {
 	transition: 0.3s;
 	font-variant: normal;
 	color: rgb(40,200,150);
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
 }
 .oz-menu li:hover {
-	background: rgba(0,20,20, 40);
+	background: rgb(0,20,20);
 	padding: 5px 0px 5px 10px;
 }
 #oz-page {
@@ -104,24 +105,22 @@ blockquote cite {
 #oz-menu {
 	flex: 2 2 0;
 }
+#oz-menu-bottom {
+	display: none;
+}
 #oz-content {
 	flex: 7 7 0;
 }
-#oz-content {
-}
-#oz-content>article{
+#oz-content article{
 	color: rgb(255,0,255);
 	background: rgb(70,0,60);
-	font-family: 'Open Sans', sans-serif;
-	margin: 10px 10px 10px 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	margin: 10px 0px 0px 10px;
 	padding: 0;
 	border: 3px solid rgb(40,200,150);
 	border-radius: 10px;
-}
-#oz-content .section-content {
-	margin: 0 auto;
-	padding: 20px;
-	max-width: 500px;
+	transition: 0.5s;
 }
 #oz-content h1 {
 	border-radius: 10px;
@@ -137,14 +136,72 @@ blockquote cite {
 	top: -40px;
 	margin-bottom: -40px;
 }
-#oz-content>article h2 {
+#oz-content .section-content {
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 500px;
+}
+#oz-content article h2 {
 	margin: 0;
 	color: rgb(255,255,0);
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
-	padding: 5px 5px 5px 20px;
-	font-size: 28px;
-	font-weight: bold;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+	padding: 2px 2px 2px 20px;
+	font-size: 25px;
+	font-weight: normal;
 	background: rgba(0,40,40,0.5);
+}
+#oz-content article .date-mark {
+	padding: 0px;
+	margin: 2px;
+    color: rgb(40,200,150);
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+	font-size: 12px;
+}
+#oz-content article h2 p {
+	color: rgb(255,0,255);
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	margin: -3px 0px 0px 0px;
+	padding: 0px;
+}
+.row-container {
+	display: flex;
+}
+.column-simple {
+	flex: 1 1 0;
+}
+.column-image {
+	max-width: 206px;
+	margin: 0 auto;
+}
+.tile-small {
+	flex: 1 1 0;
+	min-height: 320px;
+}
+.tile-medium {
+	flex: 2 2 0;
+	min-height: 320px;
+}
+#oz-content article.tile-small:hover, 
+#oz-content article.tile-medium:hover{
+	background: rgb(90,0,70);
+}
+.tile-small img, .tile-medium img {
+	border-radius: 10px;
+	border: 3px solid rgb(255,255,0);
+	display: block;
+	max-height: 165px;
+	max-width: 200px;
+	margin-top: 20px;
+}
+section.column-simple {
+	min-width: 200px;
+	margin: 20px;
+}
+.tile-medium section {
+	flex: 1 1 0;
+	margin: 20px;
 }
 #oz-content dl {
     border: 3px solid rgb(40,200,150);
@@ -160,13 +217,13 @@ blockquote cite {
     font-weight: bold;
 	font-size: 20px;
     color: rgb(40,200,150);
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
-    padding: 0.5em 0 0 0;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+    padding: 0.45em 0 0 0;
 }
   
 #oz-content dd {
     margin: 0 0 0 40%;
-    padding: 0.7em 0;
+    padding: 0.6em 0;
 	
 }
 #oz-content blockquote {
@@ -194,9 +251,9 @@ blockquote cite {
 	margin: 15px 0px 5px 0px;
 	padding: 5px;
 	padding-left: 50px;
-	background: url(../images/oz-logo-40.png) left no-repeat;
-	font-family: Courier New, Courier, Lucida Typewriter, monospace;
-	font-weight: bold;
+	background: url(../images/oz-logo-40.png) left center no-repeat;
+	font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+	font-weight: normal;
 	font-size: 25px;
 }
 ul.oz-list {
@@ -214,18 +271,124 @@ dl.oz-list {
 	padding: 50px;
 	margin: 40px 0px;
 }
-.trash_icon {
-	padding-left: 50px;
-	min-height: 50px;
-	background: url(../images/trash-icon-med.png) left center no-repeat;
+.rating {
+	flex: 0.8 0.8 0;
 }
-.cheese_icon {
-	padding-left: 50px;
-	min-height: 50px;
-	background: url(../images/cheese-icon-med.png) left center no-repeat;
+.rating-med {
+	flex: 1 1 0;
+}
+.rating-long {
+	flex: 1.2 1.2 0;
 }
 .alien_icon {
+	display: inline-block;
 	padding-left: 50px;
-	min-height: 50px;
+	margin: 2px -20px -15px 0px;
+	min-height: 40px;
 	background: url(../images/alien-icon-med.png) left center no-repeat;
+}
+.cheese_icon {
+	display: inline-block;
+	padding: 0px;
+	padding-left: 40px;
+	margin: 2px -20px -15px 0px;
+	min-height: 45px;
+	background: url(../images/cheese-icon-med.png) left center no-repeat;
+}
+.trash_icon {
+	display: inline-block;
+	padding: 0px;
+	padding-left: 30px;
+	margin: 4px -10px -4px 0px;
+	min-height: 40px;
+	background: url(../images/trash-icon-med.png) left center no-repeat;
+}
+.rating_icon {
+	display: inline-block;
+	margin: 2px -20px -15px 0px;
+	min-height: 45px;
+}
+.chicken_icon
+{
+	display: inline-block;
+	padding-left: 50px;
+	position: relative;
+	top: -8px;
+	margin: -12px 0px -15px 0px;
+	min-height: 45px;
+	background: url(../images/chicken-icon.png) left center no-repeat;
+}
+.katana_icon
+{
+	display: inline-block;
+	padding-left: 50px;
+	position: relative;
+	top: -8px;
+	left: -15px;
+	margin: -15px -20px -15px 0px;
+	min-height: 45px;
+	background: url(../images/katana-icon.png) left center no-repeat;
+}
+.artist-tag, .content-tag {
+	display: inline-block;
+	background: rgb(40,40,0);
+	border: 1px solid rgb(255,255,0);
+	color: rgb(255,255,0);
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 12px;
+	padding: 3px 5px;
+	margin: 10px auto;
+	text-align: center;
+}
+.content-tag {
+	text-align: right;
+	background: rgb(0,40,40);
+	border: 1px solid rgb(40,200,150);
+	color: rgb(40,200,150);
+}
+.tags {
+	display: block;
+    margin: auto;
+}
+@media screen and (max-width: 900px) {
+	#oz-menu {
+		display: none;
+	}
+	#oz-menu-bottom {
+		display: block;
+	}
+	#oz-menu-bottom li {
+		display: inline-block;
+		padding: 5px;
+	}
+	#oz-menu-bottom li:hover {
+		padding: 5px;
+	}
+	#oz-content article:first-child {
+		margin-left: 0px;
+	}
+	#oz-header blockquote {
+		display: none;
+	}
+}
+@media screen and (max-width: 700px) {
+	#oz-content div>div.row-container {
+		display: block;
+	}
+	#oz-content article {
+		margin: 10px auto 0px auto;
+	}
+}
+@media screen and (max-width: 475px) {
+	#oz-content .row-container {
+		display: block;
+	}
+	#oz-title {
+		display: none;
+	}
+	#oz-logo-holder {
+		margin: 0 auto;
+	}
+	
 }
